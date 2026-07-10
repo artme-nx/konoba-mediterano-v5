@@ -1,0 +1,85 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-linen-50: #FAF6EE;
+  --primitive-color-linen-100: #F2EBDA;
+  --primitive-color-linen-300: #E2D5B8;
+  --primitive-color-linen-500: #9C9080;
+  --primitive-color-linen-900: #241F1A;
+  --primitive-color-marine-500: #1D6E86;
+  --primitive-color-marine-700: #124A5C;
+  --primitive-color-marine-900: #0B2E3A;
+  --primitive-color-terracotta-500: #C1502E;
+  --primitive-color-terracotta-700: #8A3A22;
+  --primitive-color-terracotta-900: #4E1F12;
+  --primitive-color-gold-400: #D9A441;
+  --primitive-font-display: var(--font-newsreader), 'Newsreader', Georgia, serif;
+  --primitive-font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --primitive-font-mono: var(--font-plex-mono), 'IBM Plex Mono', monospace;
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 320ms;
+  --primitive-motion-duration-reveal: 1s;
+  --primitive-motion-duration-crossfade: 900ms;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-tide: cubic-bezier(0.45, 0, 0.2, 1);
+  --primitive-tracking-display: -0.01em;
+  --primitive-tracking-label: 0.16em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #FAF6EE;
+  --foreground: #241F1A;
+  --card: #F2EBDA;
+  --card-foreground: #241F1A;
+  --popover: #FAF6EE;
+  --popover-foreground: #241F1A;
+  --primary: #241F1A;
+  --primary-foreground: #FAF6EE;
+  --secondary: #F2EBDA;
+  --secondary-foreground: #241F1A;
+  --muted: #F2EBDA;
+  --muted-foreground: #9C9080;
+  --accent: #E2D5B8;
+  --accent-foreground: #241F1A;
+  --destructive: #8A3A22;
+  --border: #E2D5B8;
+  --input: #E2D5B8;
+  --ring: #C1502E;
+  --radius: 0.75rem;
+  --marine: #1D6E86;
+  --marine-dim: #0B2E3A;
+  --terracotta: #C1502E;
+  --gold: #D9A441;
+  --surface-line: #E2D5B8;
+  --type-display: var(--font-newsreader), 'Newsreader', Georgia, serif;
+  --type-body: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --type-label: var(--font-plex-mono), 'IBM Plex Mono', monospace;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-tide: cubic-bezier(0.45, 0, 0.2, 1);
+  --duration-micro: 180ms;
+  --duration-base: 320ms;
+  --duration-reveal: 1s;
+  --duration-crossfade: 900ms;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.16em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.75rem, 6.4vw, 5.25rem);
+  --hero-title-leading: 1.02;
+  --hero-kicker-size: 0.7rem;
+  --button-primary-bg: #241F1A;
+  --button-primary-fg: #FAF6EE;
+  --button-primary-hover-bg: #C1502E;
+  --button-primary-hover-fg: #FAF6EE;
+  --button-ghost-border: #E2D5B8;
+  --button-ghost-hover-border: #1D6E86;
+  --rail-track-color: #E2D5B8;
+  --rail-dot-color: #9C9080;
+  --rail-dot-active-color: #C1502E;
+  --rail-line-active-color: #1D6E86;
+}
